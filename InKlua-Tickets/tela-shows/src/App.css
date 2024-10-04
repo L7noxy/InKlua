@@ -1,0 +1,142 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;  
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  background-color: #d9d9d9;
+  height: 1200px;
+
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #01718a;
+  border-radius: 20px;
+  border: solid #01718a;
+}
+
+.nav-bar {
+  height: 90px;
+  padding: 35px;
+  background-color: #024959;
+}
+
+.parte-branca {
+  margin-left: 92.7%;
+  margin-top: -15px;
+  background-color: #ffffff;
+  rotate: 90deg;
+  width: 50px;
+  height: 0.3px;
+
+}
+
+.cadastro {
+  margin-right: 3%;
+}
+
+nav {
+  text-align: right;
+  margin-top: 0px;
+}
+
+nav a {
+  text-align: right;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.crie-evento{
+  margin-right: 20px;
+}
+
+.img-logo {
+  margin-left: -2%;
+  margin-top: -2.5%;
+  height: 70px;
+
+}
+
+.Cartaz-primario {
+  width: 100%;
+}
+
+.info-datas {
+  background-color: #ffff;
+  text-align: justify;
+  word-break: break-all;
+} 
+
+.logo-pequena{
+  height: 0px;
+}
+
+.parte-central{
+  margin-top: -5px;
+  background-color: #7B9AAB;
+  color: #ffffff;
+  height: 120px;
+}
+
+
+/* responsividade do site */
+
+@media screen and (max-width: 480px) {
+  .cadastro {
+    font-size: 15px;
+    margin-right: 14px ;
+  }
+  
+  .entrar {
+    font-size: 15px;
+  }  
+  
+  .img-logo {
+    height: 0px;
+  } 
+
+  .logo-pequena{
+    margin-left: -23px;
+    margin-top: -26px;
+    height: 45px
+  }
+  
+  .info-datas {
+    height: 50px
+  }
+
+  .nav-bar{
+    height: 4px;
+  }
+
+  .parte-branca{
+    height: 0px;
+  }
+
+  .parte-central{
+  font-size: 12px;
+  }
+
+  .crie-evento{
+    font-size: 15px;
+  }
+}
