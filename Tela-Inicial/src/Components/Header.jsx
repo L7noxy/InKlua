@@ -3,10 +3,13 @@ import './Header.css'
 
 function Header() {
   return (
-    <nav className="Header">
+    <header className="Header">
+      <p>teste</p>
         <Link to="/">Home</Link>
-        <Link to="/sobre">Sobre</Link>
-    </nav>
+        <br />
+        <br /><br /><br />  
+        <Link to="sobre">Sobre</Link>
+    </header>
   )
 }
 
