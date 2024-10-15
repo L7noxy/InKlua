@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from '../Components/Header'
+import HeaderSobre from '../Components/HeaderSobre'
 
 function Sobre() {
   return (
   <div>
-    <Header />
+    <HeaderSobre/>
 
   </div>
   )

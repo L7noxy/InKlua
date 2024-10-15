@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom"
-import './Header.css'
+import React from 'react'
 
-function Header() {
+function CrieEvento() {
   return (
     <header className="Header">
       <input type="text" className="Input" placeholder="Buscar"/> 
@@ -11,4 +10,4 @@ function Header() {
   )
 }
 
-export default Header
+export default CrieEvento
